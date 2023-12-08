@@ -27,7 +27,7 @@ const SignUp = () => {
         const errorMessagePassword = "пароль должен быть больше 6 символов";
         const errorMessageEmail = "email такой уже есть";
         const errorMessage = "Поле email или пароль не должны быть пустыми";
-      
+
         if (errorCode === "auth/weak-password") {
           alert(errorMessagePassword);
         }

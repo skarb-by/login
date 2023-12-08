@@ -1,4 +1,3 @@
-
 import { useDispatch } from "react-redux";
 import { useAuth } from "hooks/use-auth";
 import { removeUser } from "store/slices/userSlice";
@@ -28,8 +27,8 @@ const HomePage = () => {
   ) : (
     <>
       <div className="title">Главная страница</div>
-     
-     <Header title="Главная"/>
+
+      <Header title="Главная" />
     </>
   );
 };

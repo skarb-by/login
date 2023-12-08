@@ -6,10 +6,9 @@ import Header from "components/Header";
 const RegisterPage = () => {
   return (
     <div>
-  <div>
-    <Header title="Регистрация"/>
-  </div>
-
+      <div>
+        <Header title="Регистрация" />
+      </div>
       <SingUp />
     </div>
   );
